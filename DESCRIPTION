@@ -1,0 +1,18 @@
+Package: AoCUtils
+Title: tools for Advent of Code
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andrea", "Barghetti", , "andreabarghetti@hotmail.com", role = c("aut", "cre"))
+Description: my custom resusable tools for Advent of Code.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2,
+    httr,
+    reshape2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
